@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         EditText Num2 = findViewById(R.id.Num2);
         String Num2Text = Num2.getText().toString();
         int num2Text = 0;
-        Integer num2 = Integer.valueOf(Num1Text);
+        Integer num2 = Integer.valueOf(Num2Text);
 
         Integer result = null;
         if (view.getId() == R.id.btnPlus)

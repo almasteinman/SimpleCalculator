@@ -19,33 +19,34 @@
 
     <EditText
         android:id="@+id/Num2"
-        android:layout_width="167dp"
-        android:layout_height="109dp"
+        android:layout_width="183dp"
+        android:layout_height="116dp"
         android:ems="10"
-        android:inputType="numberSigned"
-        android:text="&quot;&quot;"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         android:gravity="center"
-        app:layout_constraintVertical_bias="0.048" />
-
-    <EditText
-        android:id="@+id/Num1"
-        android:layout_width="211dp"
-        android:layout_height="109dp"
-        android:ems="10"
         android:inputType="numberSigned"
-        android:text="0"
+        android:hint="enter first number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <EditText
+        android:id="@+id/Num1"
+        android:layout_width="158dp"
+        android:layout_height="110dp"
+        android:ems="10"
         android:gravity="center"
-        app:layout_constraintVertical_bias="0.048" />
+        android:inputType="numberSigned"
+        android:outlineProvider="background"
+        android:hint="enter second number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.988"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.056" />
 
     <Button
         android:id="@+id/btnPlus"
